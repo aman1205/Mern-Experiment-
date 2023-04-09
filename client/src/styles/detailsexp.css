@@ -1,0 +1,79 @@
+.details-con{
+    position: relative;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.name-exp{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.exp-description{
+    font-size: 1rem;
+    width:30rem;
+
+}
+.exp-description h5{
+    font-weight: 500;
+}
+ 
+.type{
+
+    display:inline-flex;
+    gap: 9rem;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+.exp-material{
+    margin-top: 2rem;
+    font-size:1.5rem;
+    
+}
+.mat h5{
+    text-align: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+h6{
+    font-size: 1rem;
+    font-weight:700;
+}
